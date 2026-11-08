@@ -6,7 +6,7 @@
 
 ## 🛠 Технологический стек
 
-- **Backend:** Python 3.11, Django 5.0, Django REST Framework
+- **Backend:** Python 3.12, Django 5.0, Django REST Framework
 - **Database:** PostgreSQL
 - **Security & Auth:** Simple JWT (Bearer Tokens), Role-Based Access Control
 - **Testing:** Pytest, Pytest-Django (изоляция данных и бизнес-логика)
