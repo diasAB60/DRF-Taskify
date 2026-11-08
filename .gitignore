@@ -1,0 +1,43 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest & Покрытие
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Переменные окружения и локальные БД
+.env
+.env.*
+!.env.example
+db.sqlite3
+
+# Исключения для IDE и Docker
+.idea/
+.vscode/
+postgres_data/
+*.swp
+*.swo
+
+# Статичные файлы из джанго
+staticfiles/
+static_root/
+
+#Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
